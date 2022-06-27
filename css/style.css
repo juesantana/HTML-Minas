@@ -74,7 +74,7 @@ li{
     font-weight:600;
     color:#000000;
     max-width: 800px;
-    text-align:; 
+    text-align:center; 
     font-size:16px;
     width:100%;
  
@@ -104,7 +104,7 @@ li{
 .descricao{
     font-size:16px;
     line-height: 22px;
-    color:#242424
+    color:#270252
 }
 
 .item{
