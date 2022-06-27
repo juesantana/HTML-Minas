@@ -46,24 +46,17 @@ li{
 }
 
 .intro-content {
-    background-color: #b06de7;
+    
+    background-color:  #b06de7;;
     display:flex;
-    align-items: center;
     flex-direction: column;
-    height:800px;
-    padding:50px;
-    font-family:'raleway', sans-serif;
-    font-weight:600;
-    font-size: 16px;
-    padding-bottom:100px;
-    padding-top:100px;
-    padding-left: 350px;
-    padding-right: 350px;
-    text-align:center;
+    align-items: center;
+    padding-top:60px;
+    padding-bottom:60px;
 }
 .intro-content figure{
     margin-bottom:20px;
-    padding-top:0px;
+    padding-top: 20px;
 }
 .title {
     font-weight: 700;
@@ -72,17 +65,22 @@ li{
 }
 .subtitle {
     font-weight:700 ;
-    font: size 24px;
+    font-size: 24px;
     color:#C5C0C0;
     margin-bottom:15px;
 }
-#sobre {
+.intro {
     font-family:'raleway', sans-serif;
     font-weight:600;
-    font-size: 16px;
     color:#000000;
-    max-width: 100%;
-    text-align:center;  
+    max-width: 800px;
+    text-align:; 
+    font-size:16px;
+    width:100%;
+ 
+    
+    
+
 }
 
     
