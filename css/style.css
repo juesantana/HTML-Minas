@@ -1,26 +1,39 @@
-body {
-    background-color:rgb(159, 84, 209);
 
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-
-#formacao{
-    color:rgb(136, 30, 30);
-    background-color:rgb(0, 183, 255)
-}
-
-    
-
-
-
 
 body{
+    background-color: #ffffff;
     font-family: 'Open Sans',sans-serif;
 }
+section h1{
+    font-size: 24px;
+    color:#000000;
+    margin-right:5px;
+}
+
 li{
     list-style:none;
+    text-decoration:none;
 }
 .menu {
-    background-color: #938DF8;
+    background-color: #938ef8;
+    display:flex;
+    justify-content:flex-end;
+    position: fixed;
+    width:100%;
+ 
+
+}
+.lista-menu{
+    display: flex;
+    justify-content:space-evenly;
+    width: 50%;
+    padding:25px;
 }
 .menu li{
     list-style: none;
@@ -29,20 +42,101 @@ li{
     font-weight: 700;
     font-size: 18px;
     line-height:25px;
-    color:#ffffff;
-    
+    color:#ffffff; 
+}
+
+.intro-content {
+    background-color: #b06de7;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:800px;
+    padding:50px;
+    font-family:'raleway', sans-serif;
+    font-weight:600;
+    font-size: 16px;
+    padding-bottom:100px;
+    padding-top:100px;
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align:center;
+}
+.intro-content figure{
+    margin-bottom:20px;
+    padding-top:0px;
 }
 .title {
     font-weight: 700;
     font-size: 36px;
+    margin-bottom:20px;
 }
 .subtitle {
     font-weight:700 ;
     font: size 24px;
     color:#C5C0C0;
+    margin-bottom:15px;
 }
 #sobre {
     font-family:'raleway', sans-serif;
-    font-weight:500;
+    font-weight:600;
     font-size: 16px;
+    color:#000000;
+    max-width: 100%;
+    text-align:center;  
+}
+
+    
+
+
+.conteudo {
+    display: flex;
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2px;
+    margin-bottom:0;
+}
+#formacao{
+    background-color: #cc9ef1;
+    padding-top:60px;
+    padding-bottom:60px;
+    width:100%;
+}
+
+.descricao{
+    font-size:16px;
+    line-height: 22px;
+    color:#242424
+}
+
+.item{
+    padding:22px;
+}
+
+
+#portfolio{
+    background-color:  #b06de7;;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+#contato{
+    background-color:#837eeb;
+    height: 198px;
+    padding-left:50px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+nav{
+
+height: 103px;
+width: px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
 }
