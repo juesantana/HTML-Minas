@@ -47,7 +47,8 @@ li{
 
 .intro-content {
     
-    background-color:  #b06de7;;
+   
+    background-image: linear-gradient(to top, #cc9ef1, #b06de7);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -57,6 +58,7 @@ li{
 .intro-content figure{
     margin-bottom:20px;
     padding-top: 20px;
+    margin-top:30px
 }
 .title {
     font-weight: 700;
@@ -66,7 +68,7 @@ li{
 .subtitle {
     font-weight:700 ;
     font-size: 24px;
-    color:#C5C0C0;
+    color:#6b6969;
     margin-bottom:15px;
 }
 .intro {
@@ -104,7 +106,7 @@ li{
 .descricao{
     font-size:16px;
     line-height: 22px;
-    color:#270252
+    color:#1a082e
 }
 
 .item{
@@ -113,7 +115,8 @@ li{
 
 
 #portfolio{
-    background-color:  #b06de7;;
+       
+    background-image: linear-gradient(to top,  #b06de7, #cc9ef1);;
     padding-top:60px;
     padding-bottom:60px;
 }
@@ -127,6 +130,7 @@ li{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    color:#ffffff
 }
 
 nav{
